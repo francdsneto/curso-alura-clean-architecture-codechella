@@ -1,7 +1,7 @@
-![Programação-Arquitetura Java](https://github.com/jacqueline-oliveira/3698-java-clean-architecture/assets/66698429/0191ea20-432f-4583-a391-f01558004fb9)
-![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
+# Projeto CodeChella
+> Status: Em andamento
 
-# CodeChella
+Curso - Arquitetura Java: Descomplicado a Clean Architecture - Alura
 
 App de simulação de um site para venda de ingressos de eventos diversos
 
