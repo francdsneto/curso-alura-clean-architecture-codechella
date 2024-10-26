@@ -51,6 +51,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>codechella</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -1,0 +1,28 @@
+version: '3.9'
+
+name: 'codechella'
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: teste123
+    ports:
+      - 5432:5432
+    volumes:
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+      - ./postgres-data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    environment:
+      DB_HOST: postgres
+      DB_USER: postgres
+      DB_PASSWORD: teste123
+      DB_NAME: codechella_db
+    ports:
+      - 8081:8081
+    depends_on:
+      - postgres
+
