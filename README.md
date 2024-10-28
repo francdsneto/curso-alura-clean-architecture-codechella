@@ -1,5 +1,5 @@
 # Projeto CodeChella
-> Status: Em andamento
+> Status: Concluído
 
 Curso - Arquitetura Java: Descomplicado a Clean Architecture - Alura
 
